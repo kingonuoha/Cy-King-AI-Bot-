@@ -79,10 +79,10 @@ const handleSubmit = async (e) => {
 
     // to focus scroll to the bottom 
     chatContainer.scrollTop = chatContainer.scrollHeight;
-    setInterval(() => {
-       // to focus scroll to the bottom 
-    chatContainer.scrollTop = chatContainer.scrollHeight;
-    }, 200);
+//     setInterval(() => {
+//        // to focus scroll to the bottom 
+//     chatContainer.scrollTop = chatContainer.scrollHeight;
+//     }, 200);
     // specific message div 
     const messageDiv = document.getElementById(uniqueId)
 
